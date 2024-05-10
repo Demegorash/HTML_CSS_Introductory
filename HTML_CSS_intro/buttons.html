@@ -1,0 +1,40 @@
+<!-- We are going to create some HTML buttons -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First WebSite</title>
+</head>
+<body>
+    
+    <br>
+    <hr>
+    <hr>
+    <a href="https://www.youtube.com/channel/UC_c0UHN6sebJ171CJjIwb_A" target="_blank" rel="noopener">
+        <button style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px;">Click Me</button>
+    </a>
+
+    <hr>
+    <hr>
+    <br>
+
+    <!-- This section is just to know we can do something with javascript, but it will be checked on a different course-->
+
+    <button onclick="doSomething()" style="font-size: 25px; background-color: aqua; color: brown; border-radius: 25px;">Click for JS</button>
+
+    <p id="greeting">Hello if your click the boutton above, I will change!</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "You see it, I did change!!!"
+        }
+
+    </script>
+    <hr>
+    <hr>
+    <br>
+
+</body>
+</html>
