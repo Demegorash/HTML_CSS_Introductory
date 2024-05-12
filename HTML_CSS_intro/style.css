@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: azure;
+}
+
+/* This will be to add a style by and id 
+#p1 {
+    color: azure;
+}
+
+#p2 {
+    color: tomato;
+}
+
+#p3 {
+    color: orange;
+}
+
+#p4 {
+    color: green;
+}
+*/
+
+/* This is for class selection */
+
+.odd{
+    color: tomato;
+}
+
+.even{
+    color: aqua;
+}

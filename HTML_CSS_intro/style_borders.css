@@ -1,0 +1,17 @@
+/* We are going to add some borders to our website */
+
+h1 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: hsl(214, 92%, 48%);
+    border-radius: 20px;
+}
+
+p {
+    border-bottom: 3px solid hsl(19, 100%, 50%);
+    border-top: 3px solid hsla(59, 88%, 44%, 0.884);
+    border-left: 3px dotted rgba(182, 172, 29, 0.918);
+    border-right: 3px dotted rgba(182, 172, 29, 0.918);
+
+    border-radius: 10px;
+}

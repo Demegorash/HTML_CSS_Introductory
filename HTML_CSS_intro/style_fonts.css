@@ -1,0 +1,14 @@
+/* We are going to add some fonts to our website */
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Google fonts at https://fonts.google.com/ check the explanation on the bro video video and add later */

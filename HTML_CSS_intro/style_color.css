@@ -1,0 +1,25 @@
+/* We are going to add color to our website */
+
+body {
+    background-color: hsl(0, 2%, 20%);
+}
+
+/* We have color by name */
+#p1 {
+    color: tomato;
+}
+
+/* We have color by rgb */
+#p2 {
+    color: rgb(102, 222, 255)
+}
+
+/* We have color by hex */
+#p3 {
+    color: #59ff5f;
+}
+
+/* We have color by hsl */
+#p4 {
+    color: hsl(281, 69%, 56%);
+}
