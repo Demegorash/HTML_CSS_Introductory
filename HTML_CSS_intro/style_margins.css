@@ -1,0 +1,23 @@
+/* We are adding some margins to our website */
+
+body {
+    margin: 0px;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    
+}
+
+#box1 {
+    background-color: hsl(0, 89%, 73%);
+    margin: auto;
+}
+
+#box2 {
+    background-color: hsl(204, 88%, 77%);
+    margin-left: 25px;
+}

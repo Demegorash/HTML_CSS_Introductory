@@ -1,0 +1,74 @@
+/* We are going to check the display CSS */
+
+div {
+    background-color: rgb(194, 33, 209);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+span {
+    background-color: hsl(180, 100%, 50%);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+/* We are going to add this properties, so in order to check it, you must remove the comment and add it to the inactives */
+
+div {
+    background-color: rgb(194, 33, 209);
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+span {
+    background-color: hsl(180, 100%, 50%);
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+div {
+    background-color: rgb(194, 33, 209);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+span {
+    background-color: hsl(180, 100%, 50%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+div {
+    background-color: rgb(194, 33, 209);
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+span {
+    background-color: hsl(180, 100%, 50%);
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+div {
+    background-color: rgb(194, 33, 209);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}   
+
+span {
+    background-color: hsl(180, 100%, 50%);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}

@@ -1,0 +1,43 @@
+/* We are going to add some overflow to our website */
+/* Note: Remove the comments and add ones to the example you want to see active */
+
+/*
+div {
+    border: 2px solid;
+    height: 75px;
+    overflow: visible;
+}
+*/
+
+/*
+div {
+    border: 2px solid;
+    height: 75px;
+    overflow: hidden;
+}
+*/
+
+/*
+div {
+    border: 2px solid;
+    height: 75px;
+    overflow: clip;
+    overflow-clip-margin: 15px;
+}
+*/
+
+
+div {
+    border: 2px solid;
+    height: 75px;
+    overflow: scroll;
+}
+
+
+/*
+div {
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
+*/

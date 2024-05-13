@@ -1,0 +1,10 @@
+/* We are going to add some background images to our project */
+/* Make sure to use / for the relative path on the url section*/
+
+body {
+    background-image: url(images/background_test.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

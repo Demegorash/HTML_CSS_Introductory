@@ -1,0 +1,101 @@
+/* We are going to check the different positions with CSS */
+/* Remember to add comments or remove if you want to check the effect */
+
+/*
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(180, 90%, 54%);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(180, 90%, 54%);
+    position: relative;
+    top: -100px;
+    left: -100px;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(180, 90%, 54%);
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(180, 90%, 54%);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(19, 90%, 54%);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(180, 90%, 54%);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(19, 90%, 54%);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(180, 90%, 54%);
+    position: sticky;
+    top: 0px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(19, 90%, 54%);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+*/
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(180, 90%, 54%);
+    position: sticky;
+    top: 0px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(19, 90%, 54%);
+    position: static;
+    top: 50px;
+    left: 50px;
+}

@@ -1,0 +1,20 @@
+/* We are going to check the widht and heigth property with CSS */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: hsl(208, 66%, 83%);
+    height: 100vh;
+}
+
+.box {
+    background-color: hsl(180, 100%, 97%);
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+/* We are going to add some shadows to our work */
+
+h1 {
+    text-shadow: 3px 3px 5px hsl(0, 93%, 47%), -3px -3px 5px hsl(214, 81%, 60%);
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(180, 56%, 88%);
+    box-shadow: 3px 3px 5px hsl(0, 1%, 13%);
+}
