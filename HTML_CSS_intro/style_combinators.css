@@ -1,0 +1,30 @@
+/* We are going to explain combinators in CSS */
+/* Remember to remove the comment and apply it to the one you want to check the effect */
+#container {
+    border: 2px solid;
+}
+
+
+/* Descendant is just an empty space then the tag you want to apply the effect
+#container p {
+    background-color: hsl(60, 79%, 56%);
+}
+*/
+
+/* Child
+#container > p {
+    background-color: hsl(60, 79%, 56%);
+}
+*/
+
+/* General Sibling
+
+#container ~ p {
+    background-color: hsl(60, 79%, 56%);
+}
+*/
+
+/* adjacent sibling */
+#container + p {
+    background-color: hsl(60, 79%, 56%);
+}

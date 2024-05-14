@@ -1,0 +1,38 @@
+/* We are going to work with pseudo elements, then make sure to remove the comments to see the change */
+/* I was unable to add the icons to the list on this exercise, so I will check it later */
+
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: hsl(60, 79%, 59%);
+}
+
+p::selection {
+    color: hsl(91, 76%, 69%);
+    background-color: hsl(0, 0%, 46%);
+}
+
+#fruit li::before {
+    content: "&";
+}
+
+#apple::after {
+    content: "what!";
+}
+
+#orange::after {
+    content: "what!";
+}
+
+#banana::after {
+    content: "what!";
+}
+
+#fruit::li::marker {
+    content: "nothing";
+    color: hsl(160, 80%, 77%);
+    font-size: 1.2em;
+}
