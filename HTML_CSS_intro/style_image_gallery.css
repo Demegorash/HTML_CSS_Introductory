@@ -1,0 +1,23 @@
+/* We are creating and image gallery for our proyect */
+
+.gallery {
+    display: inline-block;
+    border: 1px solid hsl(0, 3%, 59%);
+    margin: 5px;
+    width: 200px;
+
+}
+
+.gallery .description {
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover {
+    border: 1px solid hsl(0, 0%, 5%);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}

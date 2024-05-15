@@ -1,0 +1,42 @@
+/* We are going to create some icons by using HTML and CSS */
+
+.icons {
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.fa-sharp.fa-solid.fa-house {
+    color: hsl(0, 6%, 55%);
+}
+
+.fa-sharp.fa-solid.fa-house:hover {
+    color: hsl(0, 6%, 65%);
+}
+
+.fa-x {
+    color: hsl(207, 66%, 83%)
+}
+
+.fa-x:hover {
+    color: hsl(207, 66%, 93%)
+}
+
+.fa-brands.fa-youtube {
+    color: hsl(0, 84%, 67%)
+}
+
+.fa-brands.fa-youtube:hover {
+    color: hsl(0, 84%, 77%)
+}
+
+.fa-brands.fa-facebook {
+    color: hsl(202, 44%, 49%)
+}
+
+.fa-brands.fa-facebook:hover {
+    color: hsl(202, 44%, 69%)
+}
