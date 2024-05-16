@@ -1,0 +1,211 @@
+/* We are going to work with flexbox */
+/* Remove the comments for the features */
+
+/*
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+Aling content at "x" axis
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+Aling content at "y" axis
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    align-items: flex-start;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    align-items: flex-end;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    align-items: baseline;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    flex-wrap: nowrap;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    flex-wrap: wrap-reverse;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+*/
+
+.container {
+    display: flex;
+    border: 10px solid hsl(0, 0%, 0%);
+    height: 90vh;
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1 {
+    background-color: hsl(9, 100%, 64%);
+}
+
+#box2 {
+    background-color: hsl(60, 100%, 50%);
+}
+
+#box3 {
+    background-color: hsl(120, 100%, 25%);
+}
+
+#box4 {
+    background-color: hsl(240, 100%, 50%);
+}
+
+/*
+#box1 {
+    background-color: hsl(9, 100%, 64%);
+    align-self: flex-start;
+}
+
+#box1 {
+    background-color: hsl(9, 100%, 64%);
+    order: 1;
+}
+
+#box2 {
+    background-color: hsl(60, 100%, 50%);
+    align-self: center;
+}
+
+#box4 {
+    background-color: hsl(240, 100%, 50%);
+    align-self: end;
+}
+*/
+

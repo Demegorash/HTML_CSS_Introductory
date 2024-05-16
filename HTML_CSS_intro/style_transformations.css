@@ -1,0 +1,195 @@
+/* We are going to create some stuff with trasnformations */
+/*Remember to remove the comments in order to see the effect */
+body {
+    margin: 0px;
+}
+
+/*
+Transform x axis Could be px or %
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: translateX(100px);
+
+Transform y axis Could be px or %
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: translateY(300px);
+}
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: translate(50px, 50px);
+}
+*/
+
+/* Rotate x 
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: rotateX(180deg);
+}
+*/
+
+/* Rotate y 
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: rotateY(180deg);
+}
+*/
+
+/* Rotate z 
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: rotateZ(135deg);
+}
+*/
+
+/* Scale x 
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: scaleX(2);
+}
+/*
+
+/* Scale y
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: scaleY(2);
+}
+*/
+
+/* Scale x and y 
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: scale(2, 2);
+}
+*/
+
+/* Skew x
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: SkewX(45deg);
+}
+*/
+
+/* Skew y 
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: SkewY(45deg);
+}
+*/
+
+/* Skew x
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: Skew(0, 0);
+}
+*/
+
+/* Mixing transformations
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(84, 76%, 56%);
+    transform: translateX(100%) rotateZ(90deg) scale(0.5);
+}
+*/
+
+.box {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    transform: translateX(100px) rotate(45deg) scale(0.5);
+}
+
+#box1 {
+    background-color: hsl(84, 76%, 56%);
+}
+
+#box2{
+    background-color: hsl(24, 76%, 56%);
+}
+
+#box3 {
+    background-color: hsl(216, 76%, 56%);
+}
+
+img {
+    transform: translateX(100%) rotateZ(180deg) scale(2);
+}

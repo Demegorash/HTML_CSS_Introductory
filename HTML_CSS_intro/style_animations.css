@@ -1,0 +1,320 @@
+/* We are going to add some animations with CSS */
+/* Remove comments in order to check the effects */
+
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+
+/* Slide Left
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+
+@keyframes slideLeft {
+    from {transform: translateX(100px)} 
+}
+*/
+
+/* Slide Right
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideRight;
+    animation-duration: 2s;
+}
+
+@keyframes slideRight {
+    to {transform: translateX(100px)} 
+}
+*/
+
+/* Slide Up
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+
+@keyframes slideUp {
+    from {transform: translateY(100px)} 
+}
+*/
+
+/* Slide Down 
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideDown;
+    animation-duration: 2s;
+}
+
+@keyframes slideDown {
+    to {transform: translateY(100px)} 
+}
+*/
+
+/* Rotate on axis
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotate;
+    animation-duration: 2s;
+}
+
+@keyframes rotate {
+    100%{transform: rotateX(360deg);}
+    
+}
+
+@keyframes rotate {
+    75%{transform: rotateY(360deg);}
+    
+}
+
+@keyframes rotate {
+    50%{transform: rotateZ(360deg);}
+    
+}
+*/
+
+/* Grow
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: grow;
+    animation-duration: 2s;
+}
+
+@keyframes grow {
+    100%{transform: scale(2, 2);}
+}
+
+@keyframes grow {
+    50%{transform: scale(2, 2);}
+}
+*/
+
+/* Shrink 
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: shrink;
+    animation-duration: 2s;
+}
+
+@keyframes shrink {
+    100%{transform: scale(0.5, 0.5);}
+}
+
+@keyframes shrink {
+    50%{transform: scale(0.5, 0.5);}
+}
+*/
+
+/* Shrink 
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    100%{opacity: 0;}
+}
+
+@keyframes fade {
+    50%{opacity: 0;}
+}
+*/
+
+/* Color Change 
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: colorChange;
+    animation-duration: 2s;
+}
+
+@keyframes colorChange {
+    0%{background-color: hsl(0, 91%, 68%);}
+    20%{background-color: hsl(64, 91%, 68%);}
+    40%{background-color: hsl(327, 91%, 68%);}
+    60%{background-color: hsl(212, 91%, 68%);}
+    80%{background-color: hsl(64, 91%, 68%);}
+    100%{background-color: hsl(64, 79%, 4%);}
+}
+*/
+
+/* Color Glow 
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(212, 69%, 76%);
+    font-size: 13em;
+    text-align: center;
+}
+
+#box:hover {
+    animation-name: glow;
+    animation-duration: 2s;
+}
+
+@keyframes glow {
+    50%{box-shadow: 0px 0px 50px hsl(113, 100%, 50%);}
+}
+*/
+
+/* Color Directions and Iterations 
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+@keyframes slideLeft {
+    from {transform: translateX(100px)} 
+}
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes slideLeft {
+    from {transform: translateX(100px)} 
+}
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slideLeft {
+    from {transform: translateX(100px)} 
+}
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slideLeft {
+    from {transform: translateX(100px)} 
+}
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slideLeft {
+    from {transform: translateX(300px)} 
+}
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 91%, 68%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: steps(5);
+}
+
+@keyframes slideLeft {
+    from {transform: translateX(300px)} 
+}
+
+/*
+img {
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: steps(10);
+}
+
+@keyframes slideLeft {
+    from {transform: translateX(300px)} 
+}
+*/
